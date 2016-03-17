@@ -8,9 +8,9 @@ var server = http.createServer();
 // Attach listener on request event
 // This event is called when client send a request to the server
 server.on('request', function(request, response) {
-  // Parsing incoming URL string to parseData object
+  // Parsing incoming URL string to object and assign to parseData variable
   var parseData = url.parse(request.url, true);
-  // Change parseData from object type to JSON and assign to body
+  // Change parseData from object type to JSON and assign to body variable
   var body = JSON.stringify(parseData);
   // Write headers to the response
   // HTTP status code 200 means success
