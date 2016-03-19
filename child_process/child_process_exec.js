@@ -1,14 +1,20 @@
-const child_process = require('child_process');
+const child_process = require('child_process'),
+      rightShellCommand = 'node -v',
+      wrongShellCommand = 'ls ---'
 
-const shellCommand = 'node -v'
+// Define a function to execute a shell command and buffers the output.
+var executeShellCommand = (shellCommand) => {
+  child_process.exec(shellCommand, (error, stdout, stderr) => {
+    // Standard output
+    console.log('stdout: ' + stdout);
+    // Standard error
+    console.log('stderr: ' + stderr);
+    if (error !== null) {
+      console.log('exec error: ' + error);
+    }
+    console.log('=======================')
+  });
+}
 
-// Execute a shell command and buffers the output.
-const child = child_process.exec(shellCommand, (error, stdout, stderr) => {
-  // Standard output
-  console.log('stdout: ' + stdout);
-  // Standard error
-  console.log('stderr: ' + stderr);
-  if (error !== null) {
-    console.log('exec error: ' + error);
-  }
-});
+executeShellCommand(rightShellCommand);
+executeShellCommand(wrongShellCommand);
