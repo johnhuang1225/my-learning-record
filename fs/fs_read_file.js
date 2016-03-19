@@ -1,13 +1,14 @@
 // Include http & file system module
-var http = require('http');
-var fs = require('fs');
-// Declare body variable
-var body = '';
-// We want to read this file
-var fileName = './fs_read_file.js';
-
-// Create server
-var server = http.createServer();
+var http = require('http'),
+    fs = require('fs'),
+    // Declare body variable
+    body = '',
+    // set encoding
+    encoding = 'utf8',
+    // We want to read this file
+    fileName = './fs_read_file.js',
+    // Create server
+    server = http.createServer();
 
 // Attach listener on request event
 // This event is called when client send a request to the server
@@ -15,11 +16,9 @@ server.on('request', function(request, response) {
   // Check if user requests /
   if (request.url == '/') {
     // Read the file
-    fs.readFile(fileName, 'utf-8', function (error, data) {
-      // display error to the console if there is any
-      if (error) {
-        return console.error(error);
-      }
+    fs.readFile(fileName, encoding, function (error, data) {
+      // error handling
+      if (error) throw error;
       // append data to the body
       body += data;
       // Write headers to the response

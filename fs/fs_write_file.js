@@ -9,7 +9,7 @@ var http = require('http'),
 var message = process.argv.splice(2),
     fileName = 'outPut.txt',
     body = '',
-    encoding = 'utf-8'
+    encoding = 'utf8'
 
 // Wrtie message to outPut.txt
 fs.writeFile(fileName, message, encoding, function(error){
