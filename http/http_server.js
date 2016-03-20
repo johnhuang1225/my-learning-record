@@ -1,4 +1,4 @@
-// Include http module
+// Import required module
 var http = require('http');
 
 // Create server
@@ -9,8 +9,8 @@ var server = http.createServer();
 server.on('request', function(request, response) {
   // Define body content
   var body = 'Hello World!'
-  // Write headers to the response
-  // HTTP status code 200 means success
+  // Send the HTTP header
+  // HTTP Status: 200 : OK
   response.writeHead(200, {
     // Return actual byte length of the body
     'Content-Length': Buffer.byteLength(body),
