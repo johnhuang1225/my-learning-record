@@ -1,6 +1,6 @@
-// require exports.js
-var book = require('./exports.js');
+var exports = require('./exports.js');
 
-console.log('Name: ' + book.name);
+// Cannot access name, name === undefined
+console.log('Name: ' + exports.name);
 
-book.read();
+exports.read();
