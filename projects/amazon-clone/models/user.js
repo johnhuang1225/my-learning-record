@@ -3,7 +3,7 @@ var bcrypt = require('bcrypt-nodejs');
 // constructor
 var Schema = mongoose.Schema;
 
-/* The user schema attributes */
+// The user schema attributes
 var UserSchema = new Schema({
   email: { type: String, unique: true, lowercase: true },
   password: { type: String },
@@ -33,7 +33,10 @@ UserSchema.pre('save', function(next){
   });
 });
 
-/* compare password in the database and the one that user type in */
+// compare password in the database and the one that user type in
 UserSchema.methods.comparePassword = function(password){
   return bcrypt.compareSync(password, this.password);
 }
+
+// export user schema
+module.exports = mongoose.model('User', UserSchema);
