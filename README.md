@@ -3,7 +3,7 @@
 This is my Node.js learning repository.
 I will keep updating what I have leaned.
 
-## Other resources
+## :point_right: Other resources
 
 * [Octotree](https://github.com/buunguyen/octotree) : Install in your browser to quickly navigate sources.
 
