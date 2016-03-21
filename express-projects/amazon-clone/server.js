@@ -2,20 +2,25 @@ var express = require('express');
 var morgan = require('morgan');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+var ejs = require('ejs');
+var engine = require('ejs-mate');
 
-var User = require('./models/user.js');
+var User = require('./models/user');
 
 var app = express();
 
 mongoose.connect('mongodb://root:jackvbn@ds021289.mlab.com:21289/amazon-clone', function(err){
   if (err) throw err;
-  console.log("Connected to the database.")
+  console.log("Connected to the database.");
 });
 
 // Middleware
 app.use(morgan('dev'));
-app.use(bodyParser.json);
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.engine('ejs', engine);
+app.set('views', './views');
+app.set('view engine', 'ejs');
 
 app.post('/create-user', function(req, res, next){
   var user = new User();
@@ -31,8 +36,12 @@ app.post('/create-user', function(req, res, next){
 })
 
 app.get('/', function (req, res) {
-  res.send('hello, world!')
-})
+  res.render('home');
+});
+
+app.get('/about', function (req, res) {
+  res.render('about');
+});
 
 app.listen(3000, function(err){
   if (err) throw err;
