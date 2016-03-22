@@ -1,6 +1,19 @@
 ## :sparkles: :heart: My Learning Record :heart: :sparkles:
 
-This repository what I have learned so far.
+This repository records what I have learned so far.
+
+## Improve
+
+I have to keep improving the following skills ! :smile:
+
+* NodeJS
+* AWS
+* Nginx
+* NoSQL
+* RDBMS
+* TDD
+* Linux
+* Git
 
 ## Resources
 
