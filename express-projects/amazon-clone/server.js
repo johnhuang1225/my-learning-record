@@ -4,8 +4,9 @@ var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 var ejs = require('ejs');
 var engine = require('ejs-mate');
-
-var User = require('./models/user');
+var session = require('express-session');
+var cookieParser = require('cookie-parser');
+var flash = require('express-flash');
 
 var app = express();
 
@@ -15,33 +16,26 @@ mongoose.connect('mongodb://root:jackvbn@ds021289.mlab.com:21289/amazon-clone', 
 });
 
 // Middleware
+app.use(express.static(__dirname + '/public'));
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cookieParser());
+app.use(session({
+  resave: true,
+  saveUninitialized: true,
+  secret: "12345",
+}));
+app.use(flash());
+
 app.engine('ejs', engine);
-app.set('views', './views');
 app.set('view engine', 'ejs');
 
-app.post('/create-user', function(req, res, next){
-  var user = new User();
+var mainRoutes = require('./routes/main');
+var userRoutes = require('./routes/user');
 
-  user.profile.name = req.body.name;
-  user.password = req.body.password;
-  user.email = req.body.email;
-
-  user.save(function(err){
-    if (err) return next(err);
-    res.json('Successfully created a new user');
-  })
-})
-
-app.get('/', function (req, res) {
-  res.render('home');
-});
-
-app.get('/about', function (req, res) {
-  res.render('about');
-});
+app.use(mainRoutes);
+app.use(userRoutes);
 
 app.listen(3000, function(err){
   if (err) throw err;
