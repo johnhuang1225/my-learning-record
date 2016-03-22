@@ -1,9 +1,5 @@
 ## Distributed Data Protocol (DDP)
 
-To define DDP, it is simply a REST over Web socket.
+Accessing web applications is usually done over HTTP, which by definition is a protocol for exchanging documents. Although it does have advantages for transferring documents, HTTP has several shortcomings when passing data only, so Meteor uses a dedicated protocol based on JSON called DDP. DDP is a standard way to pass data over WebSockets bidirectionally, without the overhead of encapsulating documents. This protocol is the foundation for all reactive functionality and is one of the core elements of Meteor.
 
-It is a socket implementation that can transfer JSON data to and fro (duplex).
-
-MeteorJS uses Socket.io internally to establish a socket connection between the client and the server.
-
-However, neither the client nor the server knows to whom they are talking to. All they know is to talk DDP over the socket.
+DDP is a standard approach to solving the biggest problem facing client-side JavaScript developers: querying a server-side database, sending the results down to the client, and then pushing changes to the client whenever anything changes in the database.

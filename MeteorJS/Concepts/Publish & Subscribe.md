@@ -1,6 +1,6 @@
 ## Publish/Subscribe
 
-```
+```js
 /* Publishing from server. */
 if (Meteor.isServer) {
   Meteor.publish("tasks", function () { //Registering "tasks" publication
