@@ -2,7 +2,7 @@
 
 This is my Node.js learning repository. I will keep updating what I have leaned.
 
-I also learn MeteorJS form now! :smile:
+I also learn [MeteorJS](https://www.meteor.com/) form now ! :smile:
 
 ## Other resources
 
