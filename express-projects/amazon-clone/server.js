@@ -7,12 +7,17 @@ var engine = require('ejs-mate');
 var session = require('express-session');
 var cookieParser = require('cookie-parser');
 var flash = require('express-flash');
+var MongoStore = require('connect-mongo/es5')(session);
+var passport = require('passport');
+
+var secret = require('./config/secret');
+var User = require('./models/user');
 
 var app = express();
 
-mongoose.connect('mongodb://root:jackvbn@ds021289.mlab.com:21289/amazon-clone', function(err){
+mongoose.connect(secret.database, function(err) {
   if (err) throw err;
-  console.log("Connected to the database.");
+  console.log("Connected to the database");  
 });
 
 // Middleware
@@ -24,9 +29,16 @@ app.use(cookieParser());
 app.use(session({
   resave: true,
   saveUninitialized: true,
-  secret: "12345",
+  secret: secret.secretKey,
+  store: new MongoStore({ url: secret.database, autoReconnect: true})
 }));
 app.use(flash());
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(function(req, res, next) {
+  res.locals.user = req.user;
+  next();
+});
 
 app.engine('ejs', engine);
 app.set('view engine', 'ejs');
@@ -37,7 +49,7 @@ var userRoutes = require('./routes/user');
 app.use(mainRoutes);
 app.use(userRoutes);
 
-app.listen(3000, function(err){
+app.listen(secret.port, function(err) {
   if (err) throw err;
-  console.log("Server is running");
+  console.log("Server is Running on port " + secret.port);
 });
