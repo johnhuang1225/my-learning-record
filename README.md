@@ -26,6 +26,10 @@ I have to keep improving the following fundamental skills !
 
 * [Most starred MeteorJS projects](https://github.com/search?o=desc&q=meteor&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93)
 
+* [Hacker News](https://news.ycombinator.com/) : You can find useful information here.
+
+* [CSV To Markdown Table Generator](https://donatstudios.com/CsvToMarkdownTable) : Convert CSV to Markdown online.
+
 * [Octotree](https://github.com/buunguyen/octotree) : Install in your browser to quickly navigate sources.
 
 * [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/) : Add emoji to your project.
