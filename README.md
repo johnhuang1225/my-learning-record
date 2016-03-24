@@ -30,7 +30,11 @@ I have to keep improving the following fundamental skills !
 
 * [Meteor Tutorial](http://www.meteor-tutorial.org/book)
 
+* [Awesome Meteor](https://github.com/Urigo/awesome-meteor)
+
 * [Most starred MeteorJS projects](https://github.com/search?o=desc&q=meteor&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93)
+
+* [好多视频网](http://haoduoshipin.com/)
 
 ### MongoDB
 
@@ -46,9 +50,9 @@ I have to keep improving the following fundamental skills !
 
 ### Information
 
-* [Hacker News](https://news.ycombinator.com/) : You can find useful information here.
+* [Hacker News](https://news.ycombinator.com/) : You can find useful information here. :sparkling_heart:
 
-* [BARKING UP THE WRONG TREE](http://www.bakadesuyo.com/blog/) : Provides science based insights on how to be awesome at life.
+* [Barking Up The Wrong Tree](http://www.bakadesuyo.com/blog/) : Provides science based insights on how to be awesome at life.
 
 * [Most starred GitHub projects](https://github.com/search?q=stars:%3E1&s=stars&type=Repositories)
 
