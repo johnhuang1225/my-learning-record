@@ -22,6 +22,8 @@ I have to keep improving the following fundamental skills !
 
 ## Resources
 
+* [Meteor-Learning](https://github.com/ericdouglas/Meteor-Learning) :sparkling_heart:
+
 * [Most starred GitHub projects](https://github.com/search?q=stars:%3E1&s=stars&type=Repositories)
 
 * [Most starred MeteorJS projects](https://github.com/search?o=desc&q=meteor&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93)
