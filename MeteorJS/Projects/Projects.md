@@ -1,7 +1,11 @@
 ### File Structure
 
 ```
-mkdir client server public private
+mkdir -p \
+client server public lib \
+./client/views \
+./lib/collections \
+touch ./client/index.html
 ```
 
 ### Packages
@@ -14,5 +18,8 @@ zimme:iron-router-active \
 sacha:spin \
 aldeed:collection2 \
 check \
+accounts-base \
+accounts-password \
+accounts-ui \
 msavin:mongol
 ```
