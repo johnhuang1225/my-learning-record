@@ -26,45 +26,44 @@ I have to keep improving the following fundamental skills !
 
 ### Meteor
 
+* [Meteor Guide](http://guide.meteor.com/)
 * [Meteor-Learning](https://github.com/ericdouglas/Meteor-Learning) :sparkling_heart:
-
 * [Awesome Meteor](https://github.com/Urigo/awesome-meteor)
-
 * [Most starred MeteorJS projects](https://github.com/search?o=desc&q=meteor&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93)
-
-* [Meteor Cookbook](https://github.com/clinical-meteor/cookbook) : An exhaustive resource with invaluable Meteor tips
-
+* [Meteor Cookbook](https://github.com/clinical-meteor/cookbook/blob/master/table-of-contents.md) : An exhaustive resource with invaluable Meteor tips
 * [Meteorpedia](http://www.meteorpedia.com/read/Main_Page)
 
-#### Books
+##### Books
 
 * [Meteor Tutorial](http://www.meteor-tutorial.org/book)
+* [Your First Meteor Application](http://meteortips.com/book.pdf)
 
-#### Jobs
+##### Jobs
 
 * [We Work Meteor](https://www.weworkmeteor.com/)
 
-#### Community
+##### Community
 
 * [Meteor Forum](https://forums.meteor.com/)
-
 * [Meteor 中文社群](http://www.meteorhub.org/)
 
-#### Blog
+##### Blog
 
 * [The Discover Meteor Blog](https://www.discovermeteor.com/blog)
-
 * [Meteor Capture](http://meteorcapture.com/)
-
 * [好多视频网](http://haoduoshipin.com/)
 
-#### News
+##### News
 
 * [Crater.io](https://crater.io/) : A Hacker News style news site for Meteor
+
+---
 
 ### MongoDB
 
 * [SQL to MongoDB Mapping Chart](https://docs.mongodb.org/manual/reference/sql-comparison/)
+
+---
 
 ### JavaScript
 
@@ -74,18 +73,18 @@ I have to keep improving the following fundamental skills !
 
 * [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
 
+---
+
 ### Information
 
 * [Hacker News](https://news.ycombinator.com/) : You can find useful information here. :sparkling_heart:
-
 * [Barking Up The Wrong Tree](http://www.bakadesuyo.com/blog/) : Provides science based insights on how to be awesome at life.
-
 * [Most starred GitHub projects](https://github.com/search?q=stars:%3E1&s=stars&type=Repositories)
+
+---
 
 ### Tools
 
 * [CSV To Markdown Table Generator](https://donatstudios.com/CsvToMarkdownTable) : Convert CSV to Markdown online.
-
 * [Octotree](https://github.com/buunguyen/octotree) : Install in your browser to quickly navigate sources.
-
 * [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/) : Add emoji to your project.
