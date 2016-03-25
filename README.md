@@ -28,13 +28,39 @@ I have to keep improving the following fundamental skills !
 
 * [Meteor-Learning](https://github.com/ericdouglas/Meteor-Learning) :sparkling_heart:
 
-* [Meteor Tutorial](http://www.meteor-tutorial.org/book)
-
 * [Awesome Meteor](https://github.com/Urigo/awesome-meteor)
 
 * [Most starred MeteorJS projects](https://github.com/search?o=desc&q=meteor&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93)
 
+* [Meteor Cookbook](https://github.com/clinical-meteor/cookbook) : An exhaustive resource with invaluable Meteor tips
+
+* [Meteorpedia](http://www.meteorpedia.com/read/Main_Page)
+
+#### Books
+
+* [Meteor Tutorial](http://www.meteor-tutorial.org/book)
+
+#### Jobs
+
+* [We Work Meteor](https://www.weworkmeteor.com/)
+
+#### Community
+
+* [Meteor Forum](https://forums.meteor.com/)
+
+* [Meteor 中文社群](http://www.meteorhub.org/)
+
+#### Blog
+
+* [The Discover Meteor Blog](https://www.discovermeteor.com/blog)
+
+* [Meteor Capture](http://meteorcapture.com/)
+
 * [好多视频网](http://haoduoshipin.com/)
+
+#### News
+
+* [Crater.io](https://crater.io/) : A Hacker News style news site for Meteor
 
 ### MongoDB
 
