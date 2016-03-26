@@ -4,7 +4,8 @@
 mkdir -p \
 client server public lib \
 ./client/views \
-./lib/collections \
+./lib/collections
+
 touch ./client/index.html
 ```
 
