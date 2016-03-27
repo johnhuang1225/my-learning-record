@@ -5,5 +5,8 @@ Simple chat application with different chat-rooms built on the Meteor JavaScript
 Used add-on packages:
 
 - twbs:bootstrap
+- iron:router
+- sacha:spin
+- fortawesome:fontawesome
 - accounts-password
 - accounts-ui
