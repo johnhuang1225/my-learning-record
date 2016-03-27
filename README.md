@@ -5,6 +5,7 @@ This repository records what I have learned so far.
 ## Todo Projects
 
 * CSV to JSON Converter
+* Chat Rooms
 * Spending Tracker
 
 ## Improve
