@@ -2,11 +2,16 @@
 
 This repository records what I have learned so far.
 
-## Todo Projects
+## Projects
 
-* CSV to JSON Converter
+#### Todo
+
 * Chat Rooms
 * Spending Tracker
+
+#### Finished
+
+* [CSV2JSON](https://github.com/LIYINGZHEN/my-learning-record/tree/master/Meteor/Projects/csv2JSON)
 
 ## Improve
 
