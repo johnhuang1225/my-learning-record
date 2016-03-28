@@ -65,6 +65,12 @@ I have to keep improving the following fundamental skills !
 
 ---
 
+### Node.js
+
+* [Node School](http://nodeschool.io/#workshopper-list)
+
+---
+
 ### MongoDB
 
 * [SQL to MongoDB Mapping Chart](https://docs.mongodb.org/manual/reference/sql-comparison/)
