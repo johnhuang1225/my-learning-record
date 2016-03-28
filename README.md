@@ -6,12 +6,12 @@ This repository records what I have learned so far.
 
 #### Todo
 
-* Chat Rooms
 * Spending Tracker
 
 #### Finished
 
-* [CSV2JSON](https://github.com/LIYINGZHEN/my-learning-record/tree/master/Meteor/Projects/csv2JSON)
+* [CSV2JSON](https://github.com/LIYINGZHEN/my-learning-record/tree/master/Meteor/Projects/6.meteor-csv2json)
+* [Meteor Chat Room](https://github.com/LIYINGZHEN/my-learning-record/tree/master/Meteor/Projects/7.meteor-chat-room)
 
 ## Improve
 
