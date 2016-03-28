@@ -65,6 +65,12 @@ I have to keep improving the following fundamental skills !
 
 ---
 
+### Chrome
+
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+
+---
+
 ### Node.js
 
 * [Node School](http://nodeschool.io/#workshopper-list)
