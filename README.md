@@ -27,6 +27,7 @@ I have to keep improving the following fundamental skills !
 * Jenkins
 * Docker
 * Git
+* DevOps
 
 ## Resources
 
