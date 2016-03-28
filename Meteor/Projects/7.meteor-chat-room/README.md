@@ -2,7 +2,11 @@
 
 Simple chat application with different chat-rooms built on the Meteor JavaScript Platform.
 
-Used add-on packages:
+###
+
+- [Demo](http://meteor-chat-room.meteor.com)
+
+### Used add-on packages
 
 - twbs:bootstrap
 - iron:router
