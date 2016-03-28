@@ -29,7 +29,7 @@ the cloud, such as AWS Elastic Beanstalk, Google App Engine, and Heroku
 the cloud, including office applications like Amazon WorkSpaces, Google Apps
 for Work, and Microsoft Office 365
 
-##### Creating a key pair
+### Creating a key pair
 
 To access a virtual server in AWS, you need a key pair consisting of a private key and a
 public key. The public key will be uploaded to AWS and inserted into the virtual server.
@@ -55,14 +55,14 @@ During key-pair creation, you downloaded a file called `mykey.pem`. You must now
 that key for future use. Depending on your operating system, you may need to do
 things differently, so please read the section that fits your OS.
 
-LINUX AND MAC OS X
+###### LINUX AND MAC OS X
 
 The only thing you need to do is change the access rights of `mykey.pem` so that only
 you can read the file. To do so, run `chmod 400 mykey.pem` in the terminal. You’ll learn
 about how to use your key when you need to log in to a virtual server for the first time
 in this book.
 
-##### Creating a billing alarm
+### Creating a billing alarm
 
 Before you use your AWS account in the next chapter, we advise you to create a billing
 alarm. If you exceed the Free Tier, an email is sent to you. The book warns you whenever
