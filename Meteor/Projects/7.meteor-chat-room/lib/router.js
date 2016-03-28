@@ -5,9 +5,9 @@ Router.configure({
 
 Router.map(function () {
 
-  this.route('index', {
+  this.route('chatRoom', {
     path: '/',
-    template: 'index'
-  });
+    template: 'chatRoom'
+  })
 
 });

@@ -10,3 +10,5 @@ Used add-on packages:
 - fortawesome:fontawesome
 - accounts-password
 - accounts-ui
+- msavin:mongol
+- momentjs:moment
