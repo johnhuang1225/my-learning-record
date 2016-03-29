@@ -160,3 +160,50 @@ public IP address to reconnect via SSH; you’ll find it in the virtual server�
 
 Use SSH to connect to your server, and execute `cat /proc/cpuinfo` and `free -m` to
 gain information about its CPU and memory.
+
+### 1.5 Allocating a public IP address
+
+You’ve already launched some virtual servers while reading this book. Each virtual
+server was connected to a public IP address automatically. But every time you
+launched or stopped a virtual server, the public IP address changed. If you want to
+host an application under a fixed IP address, this won’t work. AWS offers a service
+called Elastic IP addresses for allocating fixed public IP addresses.
+You can allocate and associate a public IP address to a virtual web server with the
+following steps:
+
+- 1 Open the Management Console and go to the EC2 service.
+- 2 Choose Elastic IPs from the submenu. You’ll see an overview of public IP
+addresses, as shown in figure 3.21.
+- 3 Allocate a public IP address by clicking Allocate New Address.
+
+Now you can associate the public IP address with a virtual server of your choice:
+
+- 1 Select your public IP address and choose Associate Address from the Actions
+menu. A dialog similar to figure 3.22 appears.
+- 2 Enter your virtual server’s instance ID in the Instance field. Your web server is
+the only virtual server running at the moment, so you can begin typing i- and
+use auto-completion to choose the server ID.
+- 3 Click Associate to finish the process.
+
+Your virtual server is now accessible through the public IP address you allocated at the
+beginning of this section. Point your browser to this IP address, and you should see
+the placeholder page as you did in section 3.5.
+Allocating a public IP address can be useful if you have to make sure the endpoint
+to your application doesn’t change, even if you have to replace the virtual server
+behind the scenes. For example, assume that virtual server A is running and has an associated Elastic IP address. The following steps let you replace the virtual server with
+a new one without interruption:
+
+- 1 Start a new virtual server B to replace running server A.
+- 2 Install and start applications and all dependencies on virtual server B.
+- 3 Disassociate the Elastic IP from virtual server A, and associate it with virtual
+server B.
+
+Requests using the Elastic IP address will now be routed to virtual server B without
+interruption.
+You can also connect multiple public IP addresses with a virtual server by using
+multiple network interfaces, as described in the next section. This can be useful if you
+need to host different applications running on the same port or if you want to use a
+unique fixed public IP address for different websites.
+WARNING IPv4 addresses are rare. To prevent stockpiling Elastic IP addresses,
+AWS will charge you for Elastic IP addresses that aren’t associated with a
+server. You’ll clean up the allocated IP address at the end of the next section.
