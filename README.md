@@ -79,12 +79,6 @@ I have to keep improving the following fundamental skills !
 
 ---
 
-### MongoDB
-
-* [SQL to MongoDB Mapping Chart](https://docs.mongodb.org/manual/reference/sql-comparison/)
-
----
-
 ### JavaScript
 
 * [Introduction to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
