@@ -1,12 +1,12 @@
 ## SSH
 
-##### What Is SSH?
+#### What Is SSH?
 
 One essential tool to master as a system administrator is SSH.
 
 SSH, or Secure Shell, is a protocol used to securely log onto remote systems. It is the most common way to access remote Linux and Unix-like servers, such as VPS instances.
 
-##### Basic Syntax
+#### Basic Syntax
 
 The tool on Linux for connecting to a remote system using SSH is called, unsurprisingly, `ssh`.
 
@@ -34,7 +34,7 @@ To exit back into your local session, simply type:
 exit
 ```
 
-##### How To Create SSH Keys
+#### How To Create SSH Keys
 
 SSH keys should be generated on the computer you wish to log in from. This is usually your local computer.
 
@@ -68,7 +68,7 @@ As you can see, the `id_rsa` file is readable and writable only to the owner. Th
 
 The `id_rsa.pub` file, however, can be shared and has permissions appropriate for this activity.
 
-##### How To Transfer Your Public Key to the Server
+#### How To Transfer Your Public Key to the Server
 
 You can copy the public key to the remote server by issuing this command:
 
@@ -80,7 +80,7 @@ This will start an SSH session, which you will need to authenticate with your pa
 
 After you enter your password, it will copy your public key to the server's authorized keys file, which will allow you to log in without the password next time.
 
-##### The standard SSH port
+#### The standard SSH port
 
 ```
 22
