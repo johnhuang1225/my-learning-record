@@ -34,6 +34,7 @@ I have to keep improving the following fundamental skills !
 ### Meteor
 
 * [Meteor Guide](http://guide.meteor.com/)
+* [Meteor Docs](http://docs.meteor.com/)
 * [Meteor-Learning](https://github.com/ericdouglas/Meteor-Learning) :sparkling_heart:
 * [Awesome Meteor](https://github.com/Urigo/awesome-meteor)
 * [Most starred MeteorJS projects](https://github.com/search?o=desc&q=meteor&ref=searchresults&s=stars&type=Repositories&utf8=%E2%9C%93)
