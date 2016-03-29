@@ -29,39 +29,6 @@ the cloud, such as AWS Elastic Beanstalk, Google App Engine, and Heroku
 the cloud, including office applications like Amazon WorkSpaces, Google Apps
 for Work, and Microsoft Office 365
 
-### Creating a key pair
-
-To access a virtual server in AWS, you need a key pair consisting of a private key and a
-public key. The public key will be uploaded to AWS and inserted into the virtual server.
-The private key is yours; it’s like your password, but much more secure. Protect your
-private key as if it’s a password. It’s your secret, so don’t lose it—you can’t retrieve it.
-To access a Linux server, you use the SSH protocol; you’ll authenticate with the
-help of your key pair instead of a password during login.
-
-The following steps will guide you to the dashboard of the EC2 service, which offers
-virtual servers, and where you can obtain a key pair:
-- 1 Open the AWS Management Console at https://console.aws.amazon.com.
-- 2 Click Services in the navigation bar, find the EC2 service, and click it.
-- 3 Your browser shows the EC2 Management Console.
-
-Follow these steps to create a new key pair:
-
-- 1 Click Key Pairs in the navigation bar under Network & Security.
-- 2 Click the Create Key Pair button on the page.
-- 3 Name the Key Pair `mykey`. If you choose another name, you must replace the
-name in all the following examples!
-
-During key-pair creation, you downloaded a file called `mykey.pem`. You must now prepare
-that key for future use. Depending on your operating system, you may need to do
-things differently, so please read the section that fits your OS.
-
-###### LINUX AND MAC OS X
-
-The only thing you need to do is change the access rights of `mykey.pem` so that only
-you can read the file. To do so, run `chmod 400 mykey.pem` in the terminal. You’ll learn
-about how to use your key when you need to log in to a virtual server for the first time
-in this book.
-
 ### Creating a billing alarm
 
 Before you use your AWS account in the next chapter, we advise you to create a billing
@@ -69,3 +36,17 @@ alarm. If you exceed the Free Tier, an email is sent to you. The book warns you 
 an example isn’t covered by the Free Tier. Please make sure that you carefully follow
 the cleanup steps after each example. To make sure you haven’t missed something
 during cleanup, please create a billing alarm as advised by AWS: http://mng.bz/M7Sj.
+
+### Resource groups
+
+A resource group is a collection of AWS resources. Resource is an abstract term for something
+in AWS like an EC2 server, a security group, or a RDS database. Resources can be
+tagged with key-value pairs. Resource groups specify what tags are needed for a
+resource to belong to the group. Furthermore, a resource group specifies the
+region(s) the resource must reside in. You can use resource groups to group resources
+if you run multiple systems in the same AWS account.
+Remember that you tagged the blogging infrastructure with the key system and
+the value wordpress. From now on, we’ll use this notation for key-value pairs:
+(system:wordpress). You’ll use that tag to create a resource group for your
+WordPress infrastructure. In the AWS part of the navigation bar, click
+Create a Resource Group.
