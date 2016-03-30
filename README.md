@@ -42,27 +42,19 @@ I have to keep improving the following fundamental skills !
 * [慕課網](http://www.imooc.com/)
 * [學堂在線](http://www.xuetangx.com/)
 
----
-
 ### Chrome
 
 * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 
----
-
 ### Computer Science
 
 * [Computer Science](https://github.com/open-source-society/computer-science)
-
----
 
 ### Information
 
 * [Hacker News](https://news.ycombinator.com/) : You can find useful information here. :sparkling_heart:
 * [Barking Up The Wrong Tree](http://www.bakadesuyo.com/blog/) : Provides science based insights on how to be awesome at life.
 * [Most starred GitHub projects](https://github.com/search?q=stars:%3E1&s=stars&type=Repositories)
-
----
 
 ### Tools
 
