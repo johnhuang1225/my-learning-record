@@ -31,7 +31,7 @@ I have to keep improving the following fundamental skills !
 
 ## Resources
 
-##### Open Course
+### Open Course
 
 * [Coursera](https://www.coursera.org/)
 * [Udacity](https://www.udacity.com/)
@@ -41,30 +41,6 @@ I have to keep improving the following fundamental skills !
 * [eduonix](https://www.eduonix.com/)
 * [慕課網](http://www.imooc.com/)
 * [學堂在線](http://www.xuetangx.com/)
-
-##### Books
-
-* [Meteor Tutorial](http://www.meteor-tutorial.org/book)
-* [Your First Meteor Application](http://meteortips.com/book.pdf)
-
-##### Jobs
-
-* [We Work Meteor](https://www.weworkmeteor.com/)
-
-##### Community
-
-* [Meteor Forum](https://forums.meteor.com/)
-* [Meteor 中文社群](http://www.meteorhub.org/)
-
-##### Blog
-
-* [The Discover Meteor Blog](https://www.discovermeteor.com/blog)
-* [Meteor Capture](http://meteorcapture.com/)
-* [好多视频网](http://haoduoshipin.com/)
-
-##### News
-
-* [Crater.io](https://crater.io/) : A Hacker News style news site for Meteor
 
 ---
 
