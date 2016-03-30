@@ -33,7 +33,6 @@ I have to keep improving the following fundamental skills !
 
 ### Course
 
-
 * [Coursera](https://www.coursera.org/)
 * [edX](https://www.edx.org/)
 * [Udemy](https://www.udemy.com/)
@@ -50,7 +49,6 @@ I have to keep improving the following fundamental skills !
 * [學堂在線](http://www.xuetangx.com/)
 * [中国创业学院](http://cie.xuetangx.com/)
 * [ewant育網平台由](http://www.ewant.org/)
-* [How to Start a Startup](http://startupclass.samaltman.com/)
 * [Khan Academy](https://www.khanacademy.org/computing/computer-science)
 * [W3Schools](http://www.w3schools.com/)
 - [Codecademy](https://www.codecademy.com/learn)
@@ -58,6 +56,18 @@ I have to keep improving the following fundamental skills !
 * [云路课堂](http://yun.lu/student/homepage)
 * [网易云课堂](http://study.163.com/)
 * [快课网](www.cricode.coma)
+
+### Startup
+
+* [How to Start a Startup](http://startupclass.samaltman.com/)
+
+### Jobs
+
+- [拉勾](http://www.lagou.com/)
+- [66K 工作網](http://www.66kjobs.tw/)
+- [sudo](https://sudo.com.tw/)
+- [TechBridge](https://techbridge.cc/)
+- [Mit.job](http://mit.jobs/)
 
 ### Chrome
 
