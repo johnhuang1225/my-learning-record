@@ -17,16 +17,9 @@ This repository records what I have learned so far.
 
 I have to keep improving the following fundamental skills !
 
-* NodeJS
-* AWS
-* Nginx
-* NoSQL
-* RDBMS
 * TDD
-* Linux
 * Jenkins
 * Docker
-* Git
 * DevOps
 
 ## Resources
