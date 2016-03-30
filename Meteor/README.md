@@ -12,6 +12,10 @@
 * [Awesome Meteor](https://github.com/Urigo/awesome-meteor)
 * [Meteor Cookbook](https://github.com/clinical-meteor/cookbook/blob/master/table-of-contents.md) : An exhaustive resource with invaluable Meteor tips
 
+##### Meetup
+
+* [Meteor Taipei](http://www.meetup.com/Meteor-Taipei/)
+
 ##### Courses
 
 * [Level Up Tutorials](https://leveluptutorials.com/)
