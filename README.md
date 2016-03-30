@@ -31,16 +31,33 @@ I have to keep improving the following fundamental skills !
 
 ## Resources
 
-### Open Course
+### Course
+
 
 * [Coursera](https://www.coursera.org/)
-* [Udacity](https://www.udacity.com/)
 * [edX](https://www.edx.org/)
-* [Codecademy](https://www.codecademy.com/learn)
+* [Udemy](https://www.udemy.com/)
+* [Udacity](https://www.udacity.com/)
 * [Level Up Tutorials](https://leveluptutorials.com/)
+* [Code4startup](https://code4startup.com/)
+* [Code School](https://www.codeschool.com/)
+* [Treehouse](https://teamtreehouse.com/)
+* [Tuts+](http://tutsplus.com/)
+* [Codecademy](https://www.codecademy.com/learn)
 * [eduonix](https://www.eduonix.com/)
 * [慕課網](http://www.imooc.com/)
+* [极客学院](http://www.jikexueyuan.com/)
 * [學堂在線](http://www.xuetangx.com/)
+* [中国创业学院](http://cie.xuetangx.com/)
+* [ewant育網平台由](http://www.ewant.org/)
+* [How to Start a Startup](http://startupclass.samaltman.com/)
+* [Khan Academy](https://www.khanacademy.org/computing/computer-science)
+* [W3Schools](http://www.w3schools.com/)
+- [Codecademy](https://www.codecademy.com/learn)
+* [计蒜客](http://www.jisuanke.com/)
+* [云路课堂](http://yun.lu/student/homepage)
+* [网易云课堂](http://study.163.com/)
+* [快课网](www.cricode.coma)
 
 ### Chrome
 
