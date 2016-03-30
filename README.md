@@ -33,14 +33,14 @@ I have to keep improving the following fundamental skills !
 
 ##### Open Course
 
-*[Coursera](https://www.coursera.org/)
-*[Udacity](https://www.udacity.com/)
-*[edX](https://www.edx.org/)
-*[Codecademy](https://www.codecademy.com/learn)
-*[Level Up Tutorials](https://leveluptutorials.com/)
-*[eduonix](https://www.eduonix.com/)
-*[慕課網](http://www.imooc.com/)
-*[學堂在線](http://www.xuetangx.com/)
+* [Coursera](https://www.coursera.org/)
+* [Udacity](https://www.udacity.com/)
+* [edX](https://www.edx.org/)
+* [Codecademy](https://www.codecademy.com/learn)
+* [Level Up Tutorials](https://leveluptutorials.com/)
+* [eduonix](https://www.eduonix.com/)
+* [慕課網](http://www.imooc.com/)
+* [學堂在線](http://www.xuetangx.com/)
 
 ##### Books
 
