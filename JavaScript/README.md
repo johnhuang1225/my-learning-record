@@ -8,3 +8,4 @@
 * [JavaScript-Garden](http://bonsaiden.github.io/JavaScript-Garden/)
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 * [JavaScript Path](https://github.com/javascript-society/javascript-path)
+* [Eloquent JavaScript](http://eloquentjavascript.net/)
