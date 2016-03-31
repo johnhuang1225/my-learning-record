@@ -19,6 +19,7 @@
 ##### Courses
 
 * [Level Up Tutorials](https://leveluptutorials.com/)
+* [Mantra Tutor](https://tutor.mantrajs.com/)
 
 ##### Books
 
@@ -32,6 +33,7 @@
 ##### Community
 
 * [Meteor Forum](https://forums.meteor.com/)
+* [Crater.io](https://crater.io/) : A Hacker News style news site for Meteor
 * [Meteor 中文社群](http://www.meteorhub.org/)
 
 ##### Blog
@@ -39,7 +41,3 @@
 * [The Discover Meteor Blog](https://www.discovermeteor.com/blog)
 * [Meteor Capture](http://meteorcapture.com/)
 * [好多视频网](http://haoduoshipin.com/)
-
-##### News
-
-* [Crater.io](https://crater.io/) : A Hacker News style news site for Meteor
