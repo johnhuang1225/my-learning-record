@@ -7,7 +7,7 @@
 ##### Atmosphere
 
 - kadira:flow-router
-- poetic:materialize-scss
+- materialize:materialize
 - fourseven:scss
 
 ##### npm
