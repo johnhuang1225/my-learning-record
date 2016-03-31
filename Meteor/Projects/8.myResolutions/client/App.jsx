@@ -1,8 +1,14 @@
 import React from 'react';
+import TrackerReact from 'meteor/ultimatejs:tracker-react';
 
-Resolution = new Mongo.Collection('resolutions');
+Resolutions = new Mongo.Collection('resolutions');
 
-export default class App extends React.Component {
+export default class App extends TrackerReact(React.Component) {
+
+  resolutions() {
+    // Resolutions.find() return cursor .fetch() return object
+    return Resolutions.find().fetch();
+  }
 
   addResolution(event){
     event.preventDefault();
@@ -19,6 +25,7 @@ export default class App extends React.Component {
   }
 
   render() {
+    let res = this.resolutions();
     return (
       <div>
         <h1>My Resolutions</h1>

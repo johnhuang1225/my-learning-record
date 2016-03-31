@@ -6,6 +6,7 @@
 
 - kadira:flow-router
 - meteortoys:allthings
+- ultimatejs:tracker-react
 
 ##### npm
 
