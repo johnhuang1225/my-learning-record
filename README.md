@@ -17,7 +17,6 @@ This repository records what I have learned so far.
 
 I have to keep improving the following fundamental skills !
 
-* TDD
 * Jenkins
 * Docker
 * DevOps
