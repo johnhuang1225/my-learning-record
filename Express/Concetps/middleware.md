@@ -9,7 +9,7 @@ through to the next filter.
 ### Custom middleware
 
 Writing your own custom middleware is pretty simple. You simply need to write a
-function that accepts four parameters: err, req, res, and next.
+function that accepts four parameters: `err`, `req`, `res`, and `next`.
 
 * The first parameter is an error object, and if there were any stack errors prior
 to your middleware running, that error will be passed to your middleware
