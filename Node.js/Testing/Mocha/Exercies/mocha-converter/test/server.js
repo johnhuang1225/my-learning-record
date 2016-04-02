@@ -1,5 +1,3 @@
-// run the server before testing
-
 const expect  = require("chai").expect;
 const request = require("request");
 
