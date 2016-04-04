@@ -1,4 +1,4 @@
-## Node.js, Require and Exports
+## Require & Exports in Node.js
 
 > As a guideline, if the relationship between `exports` and `module.exports` seems like magic to you, ignore exports and only use `module.exports`.
 
