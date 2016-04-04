@@ -6,7 +6,7 @@
 npm install cookie-parser
 ```
 
-##### Create key
+#### Create key
 
 ```js
 // credentials.js
@@ -15,7 +15,7 @@ module.exports = {
 };
 ```
 
-##### Set up
+#### Set up
 
 ```js
 var express = require('express');
