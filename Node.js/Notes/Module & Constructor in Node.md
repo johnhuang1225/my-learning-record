@@ -1,10 +1,10 @@
 ## Module & Constructor in Node
 
-There are two way to add methods to a constructor.
+There are two ways to add methods to a constructor.
 
-1. First is using `prototype`
+1. First is using `prototype`.
 
-2. Second is using 'return' in constructor itself.
+2. Second is using `return` in constructor itself.
 
 ### Demo
 
@@ -64,3 +64,5 @@ var jack = new People_phototype('Jack');
 console.log(tom.sayName());
 console.log(jack.sayName());
 ```
+
+You will find out that result is the same in both ways.
