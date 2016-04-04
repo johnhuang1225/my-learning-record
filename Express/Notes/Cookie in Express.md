@@ -2,8 +2,10 @@
 
 #### Install package
 
+- [cookie-parser](https://github.com/expressjs/cookie-parser)
+
 ```js
-npm install cookie-parser
+npm install --save cookie-parser
 ```
 
 #### Create key
@@ -18,26 +20,24 @@ module.exports = {
 #### Set up
 
 ```js
-var express = require('express');
+var cookieParser = require('cookie-parser');
 var credentials = require('./credentials.js');
 
-var app = express();
-
-app.use(require('cookie-parser')(credentials.cookieSecret));
+app.use(cookieParser(credentials.cookieSecret));
 ```
 
 #### Create cookie
 
 ```js
-res.cookie(cookie_name , 'cookie_value');
+res.cookie(cookie_name , 'cookieValue');
 // or
-res.cookie(cookie_name , 'cookie_value', { signed: true });
+res.cookie(cookie_name , 'cookieValue', { signed: true });
 ```
 
 #### Delete cookie
 
 ```js
-res.clearCookie('cookie_name');
+res.clearCookie('cookieName');
 ```
 
 #### Reference
