@@ -6,6 +6,7 @@ This repository records what I have learned so far.
 
 - [Module & Constructor in Node](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Node.js/Notes/Module%20%26%20Constructor%20in%20Node.md)
 - [Require & Exports in Node ](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Node.js/Notes/Require%20%26%20Exports%20in%20Node.md)
+- [File Upload in Express](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/File%20Upload%20in%20Express.md)
 - [Cookie in Express](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/Cookie%20in%20Express.md)
 
 ## Projects
