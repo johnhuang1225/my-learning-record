@@ -1,0 +1,17 @@
+{
+  "name": "express-simple-api",
+  "version": "1.0.0",
+  "description": "Simple Express example for serving an API.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Middleton Li",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "underscore": "^1.8.3"
+  }
+}
