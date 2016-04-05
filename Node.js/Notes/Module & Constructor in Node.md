@@ -1,6 +1,6 @@
 ## Module & Constructor in Node
 
-There are two ways to add methods to a constructor.
+There are two ways to add methods to a constructor. (Object Constructor Pattern)
 
 1. First is using `prototype`.
 
