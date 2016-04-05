@@ -4,7 +4,7 @@ There are two ways to add methods to a constructor.
 
 1. First is using `prototype`.
 
-2. Second is using `return` in constructor itself.
+2. Second is using `return` in constructor itself. (The Revealing Module Pattern)
 
 ### Demo
 
