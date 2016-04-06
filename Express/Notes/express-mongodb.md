@@ -34,13 +34,13 @@ var opts = {
 
 switch(app.get('env')){
   case 'development':
-  mongoose.connect(credentials.mongo.development.connectionString, opts);
-  break;
+    mongoose.connect(credentials.mongo.development.connectionString, opts);
+    break;
   case 'production':
-  mongoose.connect(credentials.mongo.production.connectionString, opts);
-  break;
+    mongoose.connect(credentials.mongo.production.connectionString, opts);
+    break;
   default:
-  throw new Error('Unknown execution environment: ' + app.get('env'));
+    throw new Error('Unknown execution environment: ' + app.get('env'));
 }
 ```
 
@@ -78,7 +78,7 @@ module.exports = Vacation;
 #### Use this model in our application
 
 ```js
-var Vacation = require('./models/vacation.js'); Seeding Initial Data
+var Vacation = require('./models/vacation.js');
 ```
 
 #### Seeding Initial Data
