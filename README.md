@@ -47,6 +47,7 @@ I have to keep improving the following fundamental skills !
 * [Coursera](https://www.coursera.org/)
 * [eduonix](https://www.eduonix.com/)
 * [edX](https://www.edx.org/)
+* [Frontend Masters](https://frontendmasters.com/)
 * [Khan Academy](https://www.khanacademy.org/computing/computer-science)
 * [Level Up Tutorials](https://leveluptutorials.com/)
 * [Pluralsight](https://www.pluralsight.com/)
