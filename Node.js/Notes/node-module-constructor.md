@@ -1,4 +1,4 @@
-## Module & Constructor in Node
+## Node - Module & Constructor
 
 There are two ways to add methods to a constructor. (Object Constructor Pattern)
 
