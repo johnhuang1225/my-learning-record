@@ -12,6 +12,7 @@ This repository records what I have learned so far.
 - [Express - MongoDB](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-mongodb.md)
 - [Express - MongoDB Session Store](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-mongodb-session-store.md)
 - [Express - Session](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-session.md)
+- [Express - Validator](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-validator.md)
 
 ## Projects
 
