@@ -1,3 +1,4 @@
+```js
 Router.map(function () {
 
   // By default, path = '/about', template = 'about'
@@ -26,3 +27,4 @@ Router.map(function () {
   });
 
 });
+```
