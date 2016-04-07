@@ -8,6 +8,7 @@ This repository records what I have learned so far.
 - [Node - Require & Exports](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Node.js/Notes/node-require-exports.md)
 - [Express - Bower](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-bower.md)
 - [Express - Cookie](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-cookie.md)
+- [Express - Debugging](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-debugging.md)
 - [Express - Gulp](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-gulp.md)
 - [Express - File Upload](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-file-upload.md)
 - [Express - HTTPS](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-https.md)
