@@ -2,6 +2,7 @@
 
 ### Resources
 
+* [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#lazyinitialisationjquery)
 * [Online JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Free Code Camp](https://www.freecodecamp.com/)
 * [Introduction to Object-Oriented JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
