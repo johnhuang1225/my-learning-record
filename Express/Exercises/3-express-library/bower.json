@@ -1,0 +1,22 @@
+{
+  "name": "3-express-library",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Middleton Li"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/LIYINGZHEN/my-learning-record",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
