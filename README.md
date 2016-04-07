@@ -28,14 +28,6 @@ This repository records what I have learned so far.
 * [CSV2JSON](https://github.com/LIYINGZHEN/my-learning-record/tree/master/Meteor/Projects/6.meteor-csv2json)
 * [Meteor Chat Room](https://github.com/LIYINGZHEN/my-learning-record/tree/master/Meteor/Projects/7.meteor-chat-room)
 
-## Improve
-
-I have to keep improving the following fundamental skills !
-
-* Jenkins
-* Docker
-* DevOps
-
 ## Resources
 
 ### Course
@@ -56,7 +48,6 @@ I have to keep improving the following fundamental skills !
 * [Udemy](https://www.udemy.com/)
 * [Udacity](https://www.udacity.com/)
 * [W3Schools](http://www.w3schools.com/)
-
 * [慕課網](http://www.imooc.com/)
 * [极客学院](http://www.jikexueyuan.com/)
 * [學堂在線](http://www.xuetangx.com/)
