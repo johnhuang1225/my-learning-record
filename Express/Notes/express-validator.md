@@ -1,4 +1,4 @@
-## Express Validator
+## Express - Validator
 
 #### Install package
 

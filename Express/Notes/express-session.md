@@ -1,4 +1,4 @@
-## Session in express
+## Express - Session
 
 #### Install package
 

@@ -1,4 +1,4 @@
-## Express MongoDB Session Store
+## Express - MongoDB Session Store
 
 #### Install Package
 
