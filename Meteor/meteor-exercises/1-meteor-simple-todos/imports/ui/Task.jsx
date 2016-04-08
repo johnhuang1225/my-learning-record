@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { Meteor } from 'meteor/meteor';
+import classnames from 'classnames';
 
 // Task component - represents a single todo item
 export default class Task extends Component {
@@ -35,7 +36,7 @@ export default class Task extends Component {
           readOnly
           checked={this.props.task.checked}
           onClick={this.toggleChecked.bind(this)}
-          />
+        />
 
         { this.props.showPrivateButton ? (
           <button className="toggle-private" onClick={this.togglePrivate.bind(this)}>
@@ -45,15 +46,15 @@ export default class Task extends Component {
 
         <span className="text">
           <strong>{this.props.task.username}</strong>: {this.props.task.text}
-          </span>
-        </li>
-      );
-    }
+        </span>
+      </li>
+    );
   }
+}
 
-  Task.propTypes = {
-    // This component gets the task to display through a React prop.
-    // We can use propTypes to indicate it is required
-    task: PropTypes.object.isRequired,
-    showPrivateButton: React.PropTypes.bool.isRequired,
-  };
+Task.propTypes = {
+  // This component gets the task to display through a React prop.
+  // We can use propTypes to indicate it is required
+  task: PropTypes.object.isRequired,
+  showPrivateButton: React.PropTypes.bool.isRequired,
+};
