@@ -9,6 +9,11 @@
 
 > http://localhost:3000
 
+#### Security with methods
+
+- meteor remove insecure
+- meteor remove autopublish
+
 #### React Setup
 
 - meteor npm install --save react react-dom
@@ -24,3 +29,14 @@
 
 - meteor npm install --save react-addons-pure-render-mixin
 - meteor add react-meteor-data
+
+#### Adding user accounts
+
+- meteor add accounts-ui accounts-password
+- touch imports/ui/AccountsUIWrapper.jsx
+- mkdir imports/startup/
+- touch imports/startup/accounts-config.js
+
+#### Testing
+
+- meteor add practicalmeteor:mocha
