@@ -4,6 +4,7 @@ This repository records what I have learned so far.
 
 ## Notes
 
+- [JavaScript - Class](https://github.com/LIYINGZHEN/my-learning-record/blob/master/JavaScript/javascript-class.md)
 - [Node - Module & Constructor ](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Node.js/Notes/node-module-constructor.md)
 - [Node - Require & Exports](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Node.js/Notes/node-require-exports.md)
 - [Express - Bower](https://github.com/LIYINGZHEN/my-learning-record/blob/master/Express/Notes/express-bower.md)
