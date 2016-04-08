@@ -1,0 +1,20 @@
+{
+  "name": "4-express-react-todo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Azhen <middletonlee1994@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/LIYINGZHEN/my-learning-record",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.0.0"
+  }
+}
