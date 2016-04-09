@@ -1,31 +1,19 @@
 ## Meteor - React
 
-#### Installing and using React
+#### Install Packages
 
 ```
-npm install --save react react-dom
+npm install --save react react-dom react-router
+meteor add react-meteor-data
 ```
 
-####
+#### Usage
+
 
 ```js
-import React from 'react';
-
-export default class HelloWorld extends React.Component {
-  render() {
-    return (
-      <h1>Hello World</h1>
-    );
-  }
-}
-```
-
-```js
+import React, { Component, PropTypes } from 'react';
+import { Router, Route, browserHistory } from 'react-router';
+import ReactDOM from 'react-dom';
 import { Meteor } from 'meteor/meteor';
-import { render } from 'react-dom';
-import HelloWorld from './HelloWorld.jsx';
-
-Meteor.startup(() => {
-  render(<HelloWorld/>, document.getElementById('app'));
-});
+import { createContainer } from 'meteor/react-meteor-data';
 ```
