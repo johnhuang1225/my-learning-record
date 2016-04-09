@@ -7,6 +7,14 @@
 * [Meteorpedia](http://www.meteorpedia.com/read/Main_Page)
 * [Livecoding.tv](https://www.livecoding.tv/videos/meteor-js/?sort=newest)
 
+##### Community
+
+* [Stack Overflow](http://stackoverflow.com/questions/tagged/meteor)
+* [Meteor Forum](https://forums.meteor.com/)
+* [Crater.io](https://crater.io/)
+* [Meteor 中文社群](http://www.meteorhub.org/)
+* [Reddit](https://www.reddit.com/r/Meteor/)
+
 ##### Github
 
 * [Awesome Meteor](https://github.com/Urigo/awesome-meteor)
@@ -30,13 +38,6 @@
 ##### Jobs
 
 * [We Work Meteor](https://www.weworkmeteor.com/)
-
-##### Community
-
-* [Crater.io](https://crater.io/) : A Hacker News style news site for Meteor
-* [Meteor Forum](https://forums.meteor.com/)
-* [Meteor 中文社群](http://www.meteorhub.org/)
-* [Reddit](https://www.reddit.com/r/Meteor/)
 
 ##### Blog
 
