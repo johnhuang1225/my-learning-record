@@ -1,6 +1,6 @@
 ## My Learning Record
 
-Current I concentrate on learning **Meteor + React** :two_hearts:
+Current I concentrate on learning **Meteor + React + JavaScript** :two_hearts:
 
 I believe that I will get a great Meteor job !
 
