@@ -1,4 +1,4 @@
-## :sparkles: :heart: My Learning Record :heart: :sparkles:
+## My Learning Record
 
 Current I concentrate on learning **Meteor + React** :two_hearts:
 
