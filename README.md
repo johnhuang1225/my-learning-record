@@ -1,10 +1,12 @@
 ## :sparkles: :heart: My Learning Record :heart: :sparkles:
 
-> Current I concentrate on learning **Meteor + React** :two_hearts:
+Current I concentrate on learning **Meteor + React** :two_hearts:
+
+I believe that I will get a great Meteor job !
 
 > Believe in yourself, take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got to keep going.
 
-> I believe that I will get a great Meteor job !
+
 
 ## Notes
 
