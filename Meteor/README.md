@@ -5,6 +5,7 @@
 * [Meteor Guide](http://guide.meteor.com/)
 * [Meteor Docs](http://docs.meteor.com/)
 * [Meteorpedia](http://www.meteorpedia.com/read/Main_Page)
+* [Livecoding.tv](https://www.livecoding.tv/videos/meteor-js/?sort=newest)
 
 ##### Github
 
