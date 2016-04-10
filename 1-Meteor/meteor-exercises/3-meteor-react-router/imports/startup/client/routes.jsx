@@ -1,14 +1,14 @@
-import React from 'react';
-import { render } from 'react-dom';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router';
+import React from 'react'
+import { render } from 'react-dom'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-import { App } from '../../ui/layouts/app.jsx';
-import { Index } from '../../ui/components/index.jsx';
+import { App } from '../../ui/layouts/app.jsx'
+import { Index } from '../../ui/components/index.jsx'
 
-import { One } from '../../ui/pages/one.jsx';
-import { Two } from '../../ui/pages/two.jsx';
-import { Hello } from '../../ui/pages/hello.jsx';
-import { NotFound } from '../../ui/pages/not-found.jsx';
+import { One } from '../../ui/pages/one.jsx'
+import { Two } from '../../ui/pages/two.jsx'
+import { Hello } from '../../ui/pages/hello.jsx'
+import { NotFound } from '../../ui/pages/not-found.jsx'
 
 export const renderRoutes = () => (
   <Router history={ browserHistory }>
@@ -20,4 +20,4 @@ export const renderRoutes = () => (
     </Route>
     <Route path="*" component={ NotFound } />
   </Router>
-);
+)

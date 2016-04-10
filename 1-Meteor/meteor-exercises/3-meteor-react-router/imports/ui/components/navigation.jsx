@@ -1,5 +1,5 @@
-import React from 'react';
-import { IndexLink, Link } from 'react-router';
+import React from 'react'
+import { IndexLink, Link } from 'react-router'
 
 export const Navigation = () => (
   <ul>
