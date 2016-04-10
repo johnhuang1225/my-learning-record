@@ -10,17 +10,14 @@ import { Two } from '../../ui/pages/two.jsx';
 import { Hello } from '../../ui/pages/hello.jsx';
 import { NotFound } from '../../ui/pages/not-found.jsx';
 
-Meteor.startup( () => {
-  render(
-    <Router history={ browserHistory }>
-      <Route path="/" component={ App }>
-        <IndexRoute component={ Index } />
-        <Route path="/one" component={ One } />
-        <Route path="/two" component={ Two } />
-        <Route path="/hello/:name" component={ Hello } />
-      </Route>
-      <Route path="*" component={ NotFound } />
-    </Router>,
-    document.getElementById( 'react-root' )
-  );
-});
+export const renderRoutes = () => (
+  <Router history={ browserHistory }>
+    <Route path="/" component={ App }>
+      <IndexRoute component={ Index } />
+      <Route path="/one" component={ One } />
+      <Route path="/two" component={ Two } />
+      <Route path="/hello/:name" component={ Hello } />
+    </Route>
+    <Route path="*" component={ NotFound } />
+  </Router>
+);
