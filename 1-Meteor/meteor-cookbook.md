@@ -33,13 +33,6 @@ Replace `/client/main.html` with the following:
 </body>
 ```
 
-### Remove Blaze
-
-```
-meteor remove blaze-html-templates
-meteor add static-html
-```
-
 ### Add React
 
 ```
@@ -72,16 +65,14 @@ touch imports/ui/layouts/App.jsx
 
 ```js
 import React from 'react'
+import { Navigation } from '../components/navigation.jsx'
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <div>
-        Hello World!
-      </div>
-    )
-  }
-}
+export const App = ( { children } ) => (
+  <div>
+    <Navigation />
+    { children }
+  </div>
+)
 ```
 
 ### Add a Routes File
@@ -91,15 +82,26 @@ touch imports/startup/client/routes.jsx
 
 ```js
 import React from 'react'
-import { Router, Route, browserHistory } from 'react-router'
+import { render } from 'react-dom'
+import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 
-//Templates
-import { App } from '../../ui/layouts/App.jsx'
+import { App } from '../../ui/layouts/app.jsx'
+import { Index } from '../../ui/components/index.jsx'
+
+import { One } from '../../ui/pages/one.jsx'
+import { Two } from '../../ui/pages/two.jsx'
+import { Hello } from '../../ui/pages/hello.jsx'
+import { NotFound } from '../../ui/pages/not-found.jsx'
 
 export const renderRoutes = () => (
-  <Router history={browserHistory}>
-    <Route path="/" component={App}>
+  <Router history={ browserHistory }>
+    <Route path="/" component={ App }>
+      <IndexRoute component={ Index } />
+      <Route path="/one" component={ One } />
+      <Route path="/two" component={ Two } />
+      <Route path="/hello/:name" component={ Hello } />
     </Route>
+    <Route path="*" component={ NotFound } />
   </Router>
 )
 ```
