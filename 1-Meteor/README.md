@@ -9,11 +9,12 @@
 
 ##### Community
 
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/meteor)
-* [Meteor Forum](https://forums.meteor.com/)
+* [Code Buddies](http://hangouts.codebuddies.org/)
 * [Crater.io](https://crater.io/)
+* [Meteor Forum](https://forums.meteor.com/)
 * [Meteor 中文社群](http://www.meteorhub.org/)
 * [Reddit](https://www.reddit.com/r/Meteor/)
+* [Stack Overflow](http://stackoverflow.com/questions/tagged/meteor)
 
 ##### Github
 
