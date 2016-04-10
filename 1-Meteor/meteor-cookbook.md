@@ -37,6 +37,7 @@ Replace `/client/main.html` with the following:
 
 ```
 meteor remove blaze-html-templates
+meteor add static-html
 ```
 
 ### Add React
@@ -120,4 +121,5 @@ Meteor.startup(() => {
 ### Reference
 
 - [Meteor Guide React Todo](https://github.com/meteor/todos/tree/react)
+- [React Router Basics](https://themeteorchef.com/snippets/react-router-basics/)
 - [Getting Started with Meteor 1.3 and React](http://coderchronicles.org/2016/04/08/getting-started-with-meteor-1-3-react-and-flowrouter/)
