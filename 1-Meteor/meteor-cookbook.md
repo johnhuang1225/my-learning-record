@@ -49,6 +49,9 @@ fortawesome:fontawesome
 momentjs:moment
 # react
 react-meteor-data
+# DB
+aldeed:simple-schema
+aldeed:collection2
 # account
 accounts-ui
 accounts-password
