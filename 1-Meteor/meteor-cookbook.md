@@ -1,15 +1,53 @@
-## Meteor - Cookbook
+# Meteor - Cookbook
 
-- meteor create <app_name>
-- cd <app_name>
+### Create a project directory, set up version control, and install Meteor
 
-#### NPM
+```
+meteor create <my_meteor_project>
+cd <my_meteor_project>
+echo "# My Meteor Project" >> README.md
+```
 
-- npm install --save react react-dom react-addons-pure-render-mixin
+```
+git init
+git add .
+git commit -m "initial commit"
+```
 
-#### Atmosphere
+### Add ESLint to have syntax validation
 
-> .meteor/packages
+- eslint --init
+
+### Add mobile meta tags
+
+Replace `/client/main.html` with the following:
+
+```html
+<head>
+  <title>App name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+```
+
+### Remove Blaze
+
+```
+meteor remove blaze-html-templates
+```
+
+### Add React
+
+```
+npm i --save react react-dom react-router react-addons-pure-render-mixin
+```
+
+### Add other packages
+
+Add some packages in your  `.meteor/packages` with the following:
 
 ```
 twbs:bootstrap
@@ -20,47 +58,66 @@ react-meteor-data
 # account
 accounts-ui
 accounts-password
-# route
-kadira:flow-router
 # debug
 msavin:mongol
 # test
 practicalmeteor:mocha
 ```
 
-#### ESlint
+### Add an AppContainer Component
 
-- eslint --init
+mkdir -p imports/ui/layouts
+touch imports/ui/layouts/App.jsx
 
-#### Routing
+```js
+import React from 'react'
 
-- npm install --save react-router
-- mkdir -p imports/startup/client/
-- touch imports/startup/client/routes.js
+export default class App extends React.Component {
+  render() {
+    return (
+      <div>
+        Hello World!
+      </div>
+    )
+  }
+}
+```
 
-#### file Structure
+### Add a Routes File
 
-- rm client/main.js
-- touch client/main.jsx
-- mkdir public
+mkdir -p imports/startup/client/
+touch imports/startup/client/routes.jsx
 
-#### api
+```js
+import React from 'react'
+import { Router, Route, browserHistory } from 'react-router'
 
-- mkdir imports/api
+//Templates
+import { App } from '../../ui/layouts/App.jsx'
 
-#### publications
+export const renderRoutes = () => (
+  <Router history={browserHistory}>
+    <Route path="/" component={App}>
+    </Route>
+  </Router>
+)
+```
 
-- mkdir -p imports/api/<collection>/server/
-- touch imports/api/<collection>/server/publications.js
+### Add the import instruction to main.js
 
-#### Components
+`/client/main.js`
 
-- mkdir -p imports/ui/components/
-- mkdir -p imports/ui/components/layouts/
-- touch imports/ui/App.jsx
+```js
+import { Meteor } from 'meteor/meteor'
+import { render } from 'react-dom'
+import { renderRoutes } from '../imports/startup/client/routes.jsx'
 
-#### accout
+Meteor.startup(() => {
+  render(renderRoutes(), document.getElementById('app'))
+})
+```
 
-- touch imports/ui/AccountsUIWrapper.jsx
-- mkdir imports/startup/
-- touch imports/startup/accounts-config.js
+### Reference
+
+- [Meteor Guide React Todo](https://github.com/meteor/todos/tree/react)
+- [Getting Started with Meteor 1.3 and React](http://coderchronicles.org/2016/04/08/getting-started-with-meteor-1-3-react-and-flowrouter/)
