@@ -1,3 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export const Two = () => <h3>Page Two</h3>;
+export class Two extends Component {
+  render() {
+    return (
+      <div>
+        <h3>Page Two</h3>
+      </div>
+    );
+  }
+}
