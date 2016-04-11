@@ -1,4 +1,4 @@
-## React Webpack
+sss## React Webpack
 
 ### Install React
 
@@ -44,28 +44,28 @@ touch webpack.config.js
 ### Configure Webpack
 
 ```js
-import HtmlWebpackPlugin from 'html-webpack-plugin';
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 
-const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
+var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   // source
-  template: `${__dirname}/app/index.html`,
-  // output name
+  template: __dirname + '/app/index.html',
+  // output file name
   filename: 'index.html',
-  // bundled script inject location
+  // bundled js inject location
   inject: 'body'
 });
-
-export default {
+module.exports = {
   entry: [
     './app/index.js'
   ],
   output: {
-    path: `${__dirname}/dist`,
+    path: __dirname + '/dist',
     filename: "index_bundle.js"
   },
   module: {
     loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
+      {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
+      {test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader'}
     ]
   },
   plugins: [HTMLWebpackPluginConfig]
@@ -76,6 +76,7 @@ export default {
 
 ```json
 "scripts": {
-  "production": "webpack -p"
+  "start": "webpack-dev-server",
+  "prod": "webpack -p"
 }
 ```
