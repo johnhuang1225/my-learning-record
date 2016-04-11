@@ -1,11 +1,12 @@
 ## My Learning Record
 
+> The first questions you should ask yourself whenever you're using a new tool are "Why does this thing exist?" and "What problem is this thing solving?". If you can't eventually answer those two questions, you probably don't need it.
+
 Current I concentrate on learning **Meteor + React + JavaScript** :two_hearts:
 
 I believe that I will get a great Meteor job !
 
 > Believe in yourself, take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got to keep going.
-
 
 
 ## Notes
