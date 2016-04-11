@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 import { moment } from 'meteor/momentjs:moment'
 
 // Task component - represents a single todo item
@@ -16,6 +16,5 @@ export class Message extends Component {
 }
 
 Message.propTypes = {
-  key: React.PropTypes.string,
-  message: React.PropTypes.string
+  message: PropTypes.object.isRequired
 }
