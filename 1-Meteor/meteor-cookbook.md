@@ -66,15 +66,17 @@ mkdir -p imports/ui/layouts
 touch imports/ui/layouts/app.jsx
 
 ```js
-import React from 'react'
-import { Navigation } from '../components/navigation.jsx'
+import React, { Component } from 'react'
 
-export const App = ( { children } ) => (
-  <div>
-    <Navigation />
-    { children }
-  </div>
-)
+export class App extends Component {
+  render() {
+    return (
+      <div>
+        <h3>Hello World!</h3>
+      </div>
+    )
+  }
+}
 ```
 
 ### Add a Routes File
