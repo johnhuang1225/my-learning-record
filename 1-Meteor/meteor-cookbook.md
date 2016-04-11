@@ -5,7 +5,6 @@
 ```
 meteor create <my_meteor_project>
 cd <my_meteor_project>
-echo "# My Meteor Project" >> README.md
 ```
 
 ```
@@ -64,7 +63,7 @@ practicalmeteor:mocha
 ### Add an AppContainer Component
 
 mkdir -p imports/ui/layouts
-touch imports/ui/layouts/App.jsx
+touch imports/ui/layouts/app.jsx
 
 ```js
 import React from 'react'
