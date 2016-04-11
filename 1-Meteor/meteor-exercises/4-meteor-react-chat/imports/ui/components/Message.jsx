@@ -1,8 +1,8 @@
-import React, { Component, PropTypes } from 'react'
+import React from 'react'
 import { moment } from 'meteor/momentjs:moment'
 
 // Task component - represents a single todo item
-export class Message extends Component {
+export class Message extends React.Component {
 
   formatTime(time) {
     return moment(time).format('h:mm A')
@@ -16,5 +16,5 @@ export class Message extends Component {
 }
 
 Message.propTypes = {
-  message: PropTypes.object.isRequired
+  message: React.PropTypes.object.isRequired
 }
