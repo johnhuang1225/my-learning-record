@@ -56,7 +56,7 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 module.exports = {
   entry: [
-    './app/index.js'
+    './app/index.jsx'
   ],
   output: {
     path: __dirname + '/dist',
@@ -77,6 +77,6 @@ module.exports = {
 ```json
 "scripts": {
   "start": "webpack-dev-server",
-  "prod": "webpack -p"
+  "production": "webpack -p"
 }
 ```
