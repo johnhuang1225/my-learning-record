@@ -10,6 +10,7 @@ npm install --save react react-dom
 
 ```
 npm install --save-dev webpack html-webpack-plugin webpack-dev-server
+npm install --save-dev css-loader style-loader
 ```
 
 ### Install Babel
@@ -65,7 +66,9 @@ module.exports = {
   module: {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
-      {test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader'}
+      {test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader'},
+      {test: /\.css$/, loader: "style-loader!css-loader"}
+
     ]
   },
   plugins: [HTMLWebpackPluginConfig]
