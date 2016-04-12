@@ -45,3 +45,7 @@
 * [Meteor Capture](http://meteorcapture.com/)
 * [The Discover Meteor Blog](https://www.discovermeteor.com/blog)
 * [好多视频网](http://haoduoshipin.com/)
+
+##### Newsletter
+
+- [THIS WEEK IN METEOR](http://thisweekinmeteor.com/)
