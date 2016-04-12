@@ -9,7 +9,7 @@ npm install --save react react-dom
 ### Install Webpack
 
 ```
-npm install --save-dev webpack html-webpack-plugin webpack-dev-server
+npm install --save-dev webpack webpack-dev-server html-webpack-plugin
 npm install --save-dev css-loader style-loader
 ```
 
@@ -55,12 +55,14 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   // bundled js inject location
   inject: 'body'
 });
+
 module.exports = {
   entry: [
     './app/index.jsx'
   ],
   output: {
     path: __dirname + '/dist',
+    // name of the output file
     filename: "index_bundle.js"
   },
   module: {
