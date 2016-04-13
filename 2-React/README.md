@@ -21,6 +21,7 @@
 
 ##### Book
 
+- [Webpack Cookbook](http://survivejs.com/webpack/)
 - [React與他的快樂夥伴們](https://y2468101216.gitbooks.io/javascriptchoice/content/ES6.html)
 
 ##### Community
