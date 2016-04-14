@@ -60,6 +60,10 @@ module.exports = {
   entry: [
     './app/index.jsx'
   ],
+  // resolve extensions
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   output: {
     path: __dirname + '/dist',
     // name of the output file
