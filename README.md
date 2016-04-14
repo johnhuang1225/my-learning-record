@@ -8,6 +8,12 @@ I believe that I will get a great Meteor job !
 
 > Believe in yourself, take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got to keep going.
 
+## Boos
+
+Lean Enterprise
+Patterns of Enterprise Application Architecture
+Agile Software Development: Principles, Patterns, and Practices
+The Nature of Technology: What it Is and How it Evolves
 
 ## Notes
 
